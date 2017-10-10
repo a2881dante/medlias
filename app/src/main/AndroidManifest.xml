@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.mad.medlias">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".SplashActivity"
+            android:theme="@style/Theme.AppCompat.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".HomeActivity"
+            android:label="@string/title_main"/>
+        <activity
+            android:name=".RuleActivity"
+            android:label="@string/title_rule"/>
+        <activity
+            android:name=".TeamCreateActivity"
+            android:label="@string/title_new_team"/>
+        <activity
+            android:name=".AuthorActivity" />
+        <activity
+            android:name=".GagActivity" />
+        <activity
+            android:name=".GamePreferencesActivity"
+            android:label="@string/title_preferences"/>
+        <activity
+            android:name=".TeamBoardActivity"
+            android:label="@string/title_board"/>
+        <activity
+            android:name=".RoundActivity" />
+        <activity
+            android:name=".RoundEditorActivity"
+            android:label="@string/title_editor"/>
+        <activity
+            android:name=".WinnerActivity"
+            android:label="@string/title_winner"/>
+    </application>
+
+</manifest>

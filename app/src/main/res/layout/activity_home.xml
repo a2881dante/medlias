@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.mad.medlias.HomeActivity">
+
+    <ImageView
+        android:src="@drawable/logo_large"
+        android:scaleType="fitCenter"
+        android:layout_margin="@dimen/splash_padding"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:contentDescription="@string/app_name" />
+
+    <Button
+        android:id="@+id/home_new_game"
+        style="@style/BtnStyle"
+        android:text="@string/home_btn_new_game"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/home_rule"
+        style="@style/BtnStyle"
+        android:text="@string/home_btn_rule"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/home_vocabulary"
+        style="@style/BtnStyle"
+        android:text="@string/home_btn_vocabulary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <!--<Button
+        android:id="@+id/home_author"
+        style="@style/BtnStyle"
+        android:text="@string/home_btn_author"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />-->
+
+</LinearLayout>

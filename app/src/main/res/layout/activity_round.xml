@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.mad.medlias.RoundActivity">
+
+    <TextView
+        style="@style/h3"
+        android:id="@+id/round_timer"
+        android:text=""
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        style="@style/h1"
+        android:id="@+id/round_word"
+        android:text=""
+        android:gravity="center"
+        android:layout_weight="3"
+        android:layout_width="match_parent"
+        android:layout_height="0dp" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+        <Button
+            android:id="@+id/round_true"
+            android:text="@string/round_true"
+            android:drawableLeft="@drawable/ic_check"
+            android:textColor="@color/colorLight"
+            android:background="@color/colorTrue"
+            android:padding="@dimen/btn_margin"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+
+        <Button
+            android:id="@+id/round_false"
+            android:text="@string/round_false"
+            android:drawableLeft="@drawable/ic_clear"
+            android:textColor="@color/colorLight"
+            android:background="@color/colorFalse"
+            android:padding="@dimen/btn_margin"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.mad.medlias.WinnerActivity">
+
+    <TextView
+        style="@style/h3"
+        android:text="@string/winner_h1"
+        android:textStyle="bold"
+        android:textColor="@color/colorTrue"
+        android:layout_margin="@dimen/btn_tb_paddind"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    
+    <ListView
+        android:id="@+id/winner_list"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"/>
+
+    <Button
+        style="@style/BtnStyle"
+        android:id="@+id/winner_main"
+        android:text="@string/winner_to_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

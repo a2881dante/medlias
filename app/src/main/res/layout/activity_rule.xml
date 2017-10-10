@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.mad.medlias.RuleActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            style="@style/h1"
+            android:text="@string/home_btn_rule"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:src="@drawable/logo_large"
+            android:scaleType="fitCenter"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/img_rule"
+            android:contentDescription="@string/app_name" />
+
+        <TextView
+            style="@style/p"
+            android:text="@string/rule_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+</ScrollView>

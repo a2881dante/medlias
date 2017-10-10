@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/p_padding"
+    tools:context="com.mad.medlias.GamePreferencesActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                style="@style/h3"
+                android:text="@string/preferences_round_cnt"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:text="@string/preferences_txt_rounds_def"
+                android:id="@+id/preferences_round_cnt_cnt"
+                style="@style/p_cnt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <SeekBar
+            android:id="@+id/preferences_round_cnt"
+            android:max="9"
+            android:progress="3"
+            android:padding="@dimen/p_padding"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <View
+            style="@style/hr"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"/>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                style="@style/h3"
+                android:text="@string/preferences_round_time"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:text="@string/preferences_txt_time_def"
+                android:id="@+id/preferences_round_time_cnt"
+                style="@style/p_cnt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <SeekBar
+            android:id="@+id/preferences_round_time"
+            android:max="90"
+            android:progress="30"
+            android:padding="@dimen/p_padding"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <View
+            style="@style/hr"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"/>
+
+        <TextView
+            style="@style/h3"
+            android:text="@string/preferences_level"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Spinner
+            android:id="@+id/preferences_level"
+            android:layout_marginTop="@dimen/text_p"
+            android:layout_marginBottom="@dimen/text_p"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:id="@+id/preferences_next"
+            style="@style/BtnStyle"
+            android:text="@string/team_next"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+</ScrollView>

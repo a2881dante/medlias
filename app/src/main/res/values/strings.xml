@@ -1,0 +1,65 @@
+<resources>
+
+    <string name="app_name">Medlias</string>
+
+    <string name="title_main">Главное меню</string>
+    <string name="title_new_team">Настройка команд</string>
+    <string name="title_preferences">Настройка игры</string>
+    <string name="title_rule">Правила</string>
+    <string name="title_round">Игра</string>
+    <string name="title_board">Игровой счет</string>
+    <string name="title_winner">Победители</string>
+    <string name="title_editor">Редактор ответов</string>
+
+    <string name="home_btn_new_game">Новая игра</string>
+    <string name="home_btn_continue">Продолжить</string>
+    <string name="home_btn_rule">Правила</string>
+    <string name="home_btn_author">Создатели</string>
+    <string name="home_btn_vocabulary">Словарь</string>
+
+    <string name="team_new">Добавить новую команду</string>
+    <string name="team_next">Далее</string>
+    <string name="team_mess_min">Вы же не будете играть в одиночестве!</string>
+    <string name="team_mess_max">Больше 10 команд нельзя!</string>
+
+    <string name="gag_text">В процессе разработки</string>
+
+    <string name="preferences_round_time">Время одного раунда (секунд)</string>
+    <string name="preferences_round_cnt">Количество раундов</string>
+    <string name="preferences_level">Уровень сложности</string>
+    <string name="preferences_domain">Область знаний</string>
+    <string name="preferences_txt_time_def">60</string>
+    <string name="preferences_txt_rounds_def">5</string>
+
+    <string name="board_team_head">Очки команд</string>
+    <string name="board_round">Раунд </string>
+    <string name="board_next_team">Приготовиться команде </string>
+    <string name="board_next_round">Играть!</string>
+
+    <string name="round_true">Угадано</string>
+    <string name="round_false">Не угадано</string>
+
+    <string name="winner_h1">Таблица победителей</string>
+    <string name="winner_to_main">На главную</string>
+
+    <string name="rule_text">
+        <b>Medlias - медицинский аналог Alias.</b>\n
+        Medlias — настольная игра, в которой целью игроков является объяснение загаданного слова
+        напарникам по команде (в некоторых случаям и игрокам противоположной команды), без
+        использования жестов и произнесения загаданного слова и однокоренных с ним слов.\n
+        Игроки делятся на группы, причем количество игроков в каждой группе не обязательно должно
+        быть равным. «Алиас» одна из самых популярных настольных игр для вечеринок и больших компаний.
+        Она сочетает в себе дух соперничества и веселые ситуации, непременно возникающие по ходу
+        объяснения сложных слов и словосочетаний.\n
+        Минимальное количество игроков, необходимых для начала состязания, — 4 человека. По
+        максимальному количеству ограничений нет.\n
+        <b>Ход игры</b>\n
+        К игре приступает первая команда, один участник будет выступать в роли объясняющего,
+        остальные — стараться отгадать требуемое слово. Карточки можно пропускать.Игра ведется на
+        время — в начале каждого хода песочные часы переворачиваются. Задача команды отгадать как
+        можно больше слов за этот временной период. После истечения отведенного на разгадывание слов
+        времени, начинается подсчет баллов. За каждое угаданное слово команда получает 1 балл, за
+        каждый штраф – минус 1 балл.
+    </string>
+
+</resources>

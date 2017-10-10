@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="splash_padding">50dp</dimen>
+    <dimen name="btn_tb_paddind">15dp</dimen>
+    <dimen name="btn_margin">5dp</dimen>
+    <dimen name="p_padding">7dp</dimen>
+    <dimen name="img_rule">150dp</dimen>
+
+    <dimen name="text_btn">18sp</dimen>
+    <dimen name="text_h1">30sp</dimen>
+    <dimen name="text_h3">24sp</dimen>
+    <dimen name="text_p">16sp</dimen>
+
+    <dimen name="hr_margin">20dp</dimen>
+
+</resources>
